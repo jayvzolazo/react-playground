@@ -2,7 +2,7 @@ import React, { lazy, Suspense } from 'react';
 
 import './Game.scss';
 
-import calculateWinner from '../../services/calculateWinner';
+import calculateWinner from '../../Services/calculateWinner';
 
 const Board = lazy(() => import('../../components/Board/Board'));
 

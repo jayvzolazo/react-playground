@@ -1,4 +1,5 @@
 import React from 'react';
+import { Checkbox } from 'semantic-ui-react';
 
 import logo from '../../logo.svg';
 import './Home.scss';
@@ -22,7 +23,13 @@ class Home extends React.Component {
           </a>
           <a className="Home-link" href="/game">Play Game</a>
           <a className="Home-link" href="/about">About</a>
+          <a className="Home-link" href="/about">About</a>
         </header>
+        <form>
+          <label>
+            <Checkbox toggle />
+          </label>
+        </form>
       </div>
     );
   }

@@ -2,8 +2,6 @@ import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// import ReactDOM from 'react-dom/client';
-import './index.scss';
 import reportWebVitals from './reportWebVitals';
 // import Home from './pages/Home/Home';
 

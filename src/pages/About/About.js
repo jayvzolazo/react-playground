@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../../logo.svg';
 import '../Home/Home.scss';
 
-import axiosService from '../../services/axios.service';
+import axiosService from '../../Services/axios.service';
 
 class About extends React.Component {
   state = {
